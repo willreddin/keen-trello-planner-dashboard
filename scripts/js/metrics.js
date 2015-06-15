@@ -9,7 +9,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"5385dce506298ff6c351fa8c"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("done"), {
@@ -24,7 +24,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"5385dce506298ff6c351fa8b"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("today"), {
@@ -39,7 +39,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"5385dce506298ff6c351fa8d"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("monday"), {
@@ -54,7 +54,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"543cfc782a503821bf46efd3"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("tuesday"), {
@@ -69,7 +69,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"543cfc80b40ea993f9a227b6"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("wednesday"), {
@@ -85,7 +85,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"543cfc88e38628ff3074ddde"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("thursday"), {
@@ -100,7 +100,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"543cfc8bd268a6bc279cc676"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("friday"), {
@@ -115,7 +115,7 @@ Keen.ready(function(){
   var query = new Keen.Query("count", {
     eventCollection: "cards",
     filters: [{"operator":"eq","property_name":"idList","property_value":"5446d3ae0704cf38cbda6e3c"}],
-    timeframe: "this_1_days",
+    timeframe: "this_20_minutes",
     timezone: "UTC"
   });
   client.draw(query, document.getElementById("saturday"), {

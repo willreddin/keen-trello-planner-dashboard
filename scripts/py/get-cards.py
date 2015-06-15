@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from trello import TrelloApi
 
 from keen.client import KeenClient
